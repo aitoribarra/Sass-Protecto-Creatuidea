@@ -35,6 +35,14 @@ a {
 
 }
 
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+}
+
 .header__img {
     max-width: 230px;
 }
