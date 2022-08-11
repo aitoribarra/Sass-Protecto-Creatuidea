@@ -104,13 +104,23 @@
   
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 820px) {
     .top-header {
         background-color: #EFE52D;
         display: flex;
         justify-content: space-around;
         align-items: center;
         padding: 5px;
-        gap: 484px;
+        gap: 3px;
+}
+  }
+
+  @media screen and (max-width: 760px) {
+    .top-header {
+        background-color: #EFE52D;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5px;
 }
   }
